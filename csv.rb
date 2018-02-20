@@ -71,5 +71,5 @@ CSV.read('olympic-data.csv', 'r', headers: true,
     olympics << OlympicGame.new(row)
 end
 
-
+# 'ap' is used in debugging
 # ap olympics
